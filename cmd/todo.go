@@ -88,4 +88,4 @@ func (t *Todos) Store(filename string) error {
 	return ioutil.WriteFile(filename, data, 0644)
 }
 
-
+func (t *Todos) Print() {}
